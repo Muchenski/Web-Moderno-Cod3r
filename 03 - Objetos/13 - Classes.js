@@ -22,6 +22,6 @@ class Carro extends Veiculo {
     }
 }
 
-new Veiculo(220, 4).acelerar();
-new Moto(120, 4).acelerar();
-new Carro(320, 4).acelerar();
+new Veiculo(220, 4).acelerar(); // [OUT] - Veiculo está acelerando
+new Moto(120, 4).acelerar(); // [OUT] - Moto está acelerando
+new Carro(320, 4).acelerar(); // [OUT] - Carro está acelerando
